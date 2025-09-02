@@ -53,7 +53,7 @@ Follow the snowflake_instructions.sql inside the project to prepare the Snowflak
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/<your-username>/dbt-movielens.git
+git clone https://github.com/xulitong22/dbt-movielens.git
 cd dbt-movielens
  ```
 
