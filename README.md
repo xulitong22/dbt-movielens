@@ -58,13 +58,16 @@ cd dbt-movielens
  ```
 
 2. Set up a dbt virtual environment and install dependencies:
+```bash
 python -m venv dbt_env
 source dbt_env/bin/activate
 pip install dbt-snowflake
+```
 
 3. Create a profiles.yml with your Snowflake credentials
 
 4. Run dbt commands:
+```bash
 dbt deps          # Install packages
 dbt seed          # If you have seed files
 dbt run           # Build models
@@ -72,6 +75,8 @@ dbt test          # Run tests
 dbt snapshot      # Run snapshots
 dbt docs generate # Optional: generate documentation
 dbt docs serve    # Optional: view docs locally
+```
+
 
 ## Project Notes
 
