@@ -55,6 +55,7 @@ Follow the snowflake_instructions.sql inside the project to prepare the Snowflak
 ```bash
 git clone https://github.com/<your-username>/dbt-movielens.git
 cd dbt-movielens
+ ```
 
 2. Set up a dbt virtual environment and install dependencies:
 python -m venv dbt_env
